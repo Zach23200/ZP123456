@@ -1,0 +1,169 @@
+<!Doctype html>
+<html>
+<head>
+
+	<meta charset = "utf-8" />
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	
+	<title> Zach P Portfillo </title>
+
+	<style>
+		body{
+			background-image: url("https://www.essenceofcomm.com/wp-content/uploads/2017/06/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg");
+		}
+	</style>
+	
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+	<style>
+			.center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+	</style>
+	
+<header>
+	<style>
+	nav {
+		display: flex;
+		align-items: center;
+	}
+	.nav-left, .nav-right {
+		flex: 1;
+		text-align: center;
+		}
+	</style>
+	<nav>
+		<div class = "nav-left">
+			<a href = "Portfillio.html">Home<br><br></a href>
+		</div>
+		<div class = "nav-left">
+			<a href = "PAbout.html">About</a href>
+		</div>
+		<div class = "nav-center">
+			<img src = "C:\Users\User\Downloads\ulnfz3qq.png" width="300" height="200">
+		</div>
+		<div class = "nav-right">
+			<a href = "PProjects.html">Projects</a href>
+		</div>
+		<div class = "nav-right">
+			<a href = "PContact.html">Contact Me</a href>
+		</div>
+	</nav>
+</header>
+<body>
+	<H1> Welcome this is where you can feel free to contact me:</h1>
+	<section class="contact-section">
+  <div class="contact-intro">
+    <h2 class="contact-title">Contact Me</h2>
+    <p class="contact-description">
+      If you have any inquiries feel free to contact me. Thank you.
+    </p>
+  </div>
+
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="c331601b-88b5-495f-b668-b70ec813d08f"/>
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Send Message</button>
+  </form>
+
+</section>
+<style>
+		.contact-section {
+	  width: 100%;
+	  max-width: 40rem;
+	  margin-left: auto;
+	  margin-right: auto;
+	  padding: 3rem 1rem;
+	}
+
+	.contact-intro > * + * {
+	  margin-top: 1rem;
+	}
+
+	.contact-title {
+	  font-size: 1.875rem;
+	  line-height: 2.25rem;
+	  font-weight: 700;
+	}
+
+	.contact-description {
+	  color: rgb(107 114 128);
+	}
+
+	.form-group-container {
+	  display: grid;
+	  gap: 1rem;
+	  margin-top: 2rem;
+	}
+
+	.form-group {
+	  display: flex;
+	  flex-direction: column;
+	}
+
+	.form-label {
+	  margin-bottom: 0.5rem;
+	}
+
+	.form-input,
+	.form-textarea {
+	  padding: 0.5rem;
+	  border: 1px solid #e5e7eb;
+	  display: flex;
+	  height: 2.5rem;
+	  width: 100%;
+	  border-radius: 0.375rem;
+	  font-size: 0.875rem;
+	  line-height: 1.25rem;
+	}
+
+	.form-input::placeholder,
+	.form-textarea:focus-visible {
+	  color: #6b7280;
+	}
+
+	.form-input:focus-visible,
+	.form-textarea:focus-visible {
+	  outline: 2px solid #2563eb;
+	  outline-offset: 2px;
+	}
+
+	.form-textarea {
+	  min-height: 120px;
+	}
+
+	.form-submit {
+	  width: 100%;
+	  margin-top: 1.2rem;
+	  background-color: #3124ca;
+	  color: #fff;
+	  padding: 13px 5px;
+	  border-radius: 0.375rem;
+	}
+
+</style>
+</body>
+</html>
